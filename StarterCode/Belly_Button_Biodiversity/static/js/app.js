@@ -84,6 +84,9 @@ function buildCharts(sample) {
     //   }
     // } // I think this works but too slow
     //console.log(response_sorted);
+
+    // Never mind, I see that it's supposed to be done in python now
+    // but still, it would be helpful to mention it in the instructions
     
     trace2 = {
       labels: response.otu_ids.slice(0, 10),
